@@ -65,3 +65,35 @@ body{
 	-ms-box-shadow:0 0 20px #ccc;
 	box-shadow:0 0 20px #ccc;
 }
+
+.como-chegar {
+	font-family: 'Vogue', sans-serif;
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+	position: relative;
+	bottom: 25px;
+}
+
+.como-chegar h1 {
+	margin-bottom: 0;
+}
+
+.como-chegar button {
+	border: none;
+	width: 95px;
+	border-radius: 30px ;
+}
+
+.como-chegar button:hover {
+	background-color: #a38a00;
+}
+
+.find {
+	display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
